@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "clean": "rimraf ./dist/server",
-    "start": "npm run build && node dist/server/index.js",
+    "start": "cross-env NODE_ENV=development node src/index.ts",
     "dev": "cross-env NODE_ENV=development nodemon src/index.ts"
   },
   "keywords": [],
