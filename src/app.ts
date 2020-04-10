@@ -12,7 +12,7 @@ const app: Application = express();
 
 // settings
 app.set('port', process.env.PORT || 4000);
-app.set('url', process.env.DIST_FOLDER);
+// app.set('url', process.env.DIST_FOLDER);
 
 // middlewares
 app.use(morgan('dev'));
